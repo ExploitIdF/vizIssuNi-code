@@ -1,0 +1,44 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Mise à jour des Points de Contrôle (Admin)</mat-card-title>
+      <mat-card-subtitle>Chargez un fichier CSV pour remplacer la configuration dans la collection 
+        'point_controle_conf_dev'. Cette action modifie le site de développement mais elle  est sans effet 
+        sur l'application en production.   Elle risque cependant d'affecter la base de données des rapports enregistrés.</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <div class="upload-section">
+        <button mat-stroked-button color="primary" (click)="fileInput.click()" [disabled]="isProcessing || isUpdating">
+          <mat-icon>attach_file</mat-icon>
+          <span>Sélectionner un fichier CSV</span>
+        </button>
+        <input hidden type="file" #fileInput (change)="onFileSelected($event)" accept=".csv">
+        <span *ngIf="fileName" class="file-name">{{ fileName }}</span>
+      </div>
+
+      <mat-progress-bar mode="indeterminate" *ngIf="isProcessing"></mat-progress-bar>
+
+      <div *ngIf="validationResult" class="validation-result" [ngClass]="{'valid': validationResult.isValid, 'invalid': !validationResult.isValid}">
+        <mat-icon>{{ validationResult.isValid ? 'check_circle' : 'error' }}</mat-icon>
+        <div class="message-details">
+          <p>{{ validationResult.message }}</p>
+        <ul *ngIf="validationResult.missingHeaders && validationResult.missingHeaders.length > 0">
+          <li>Colonnes manquantes : {{ validationResult.missingHeaders.join(', ') }}</li>
+        </ul>
+        </div>
+      </div>
+    </mat-card-content>
+
+    <mat-card-actions align="end">
+      <button mat-raised-button
+              color="accent"
+              [disabled]="!validationResult?.isValid || isUpdating"
+              (click)="updateConfiguration()">
+        <span *ngIf="!isUpdating">Mettre à jour la configuration</span>
+        <span *ngIf="isUpdating">Mise à jour en cours...</span>
+      </button>
+    </mat-card-actions>
+    <mat-progress-bar mode="indeterminate" *ngIf="isUpdating"></mat-progress-bar>
+  </mat-card>
+</div>

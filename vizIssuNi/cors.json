@@ -1,0 +1,29 @@
+[
+  {
+    "origin": [
+      "https://4200-cs-243985493567-default.cs-europe-west1-iuzs.cloudshell.dev",
+      "https://visisuni-restitution.firebaseapp.com",
+      "https://vizissuni-restitution-dev.firebaseapp.com",
+            "https://vizissuni-restitution-dev.web.app",
+            
+            "https://vizissuni-restitution.web.app",
+      "https://vizissuni.firebaseapp.com",
+      "https://vizissuni-dev.web.app",
+        "https://vizissuni.web.app",
+      "https://vizissuni-dev.firebaseappm",
+      "http://localhost:4200"
+    ],
+    "method": [
+      "GET",
+      "HEAD",
+      "PUT",
+      "POST",
+      "DELETE"
+    ],
+    "responseHeader": [
+      "Content-Type",
+      "Access-Control-Allow-Origin"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]

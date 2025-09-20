@@ -1,0 +1,43 @@
+<div class="container">
+  <form [formGroup]="prestationForm" (ngSubmit)="onSubmit()">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Ajouter la commande d'une prestation</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <!-- Select Fermeture -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Sélectionner une fermeture</mat-label>
+          <mat-select formControlName="selectedFermeture">
+            <mat-option *ngFor="let fermeture of fermetures$ | async" [value]="fermeture.nom">
+              {{ fermeture.nom }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- Select Date -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Date prévisionnelle</mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="selectedPrevision" [min]="minDate" [max]="maxDate">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <!-- Select Niveau -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Niveau d'intervention</mat-label>
+          <mat-select formControlName="selectedNiv">
+            <mat-option *ngFor="let niveau of niveaux" [value]="niveau">
+              {{ niveau | titlecase }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <button mat-raised-button color="primary" type="submit" [disabled]="prestationForm.invalid || isSubmitting">
+          {{ isSubmitting ? 'Ajout en cours...' : 'Ajouter' }}
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>

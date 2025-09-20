@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "batiment-dirif"
+  },
+  "targets": {
+    "batiment-dirif": {
+      "hosting": {
+        "dev": ["vizissuni-restitution-dev"],
+        "prod": ["vizissuni-restitution"]
+      }
+    }
+  },
+  "etags": {}
+}

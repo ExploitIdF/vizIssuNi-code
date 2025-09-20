@@ -1,0 +1,16 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /loginAttempts/{attemptId} {
+      allow create: if true; // Permet à n'importe qui de créer un document de log.
+      allow read: if request.auth != null && request.auth.token.role == 'admin'; // Exemple: Seuls les admins peuvent lire
+      allow update, delete: if false; // Personne ne peut modifier ou supprimer les logs existants.
+    }
+
+    match /authorizedUsers/{userId} {
+      allow read: if request.auth != null; 
+      allow write: if request.auth != null && request.auth.token.role == 'admin';
+    }
+  }
+}

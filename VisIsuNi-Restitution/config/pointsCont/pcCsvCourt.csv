@@ -1,0 +1,41 @@
+codePC,descPC,codeRC,descRC,typeObjet,niveau,commentaireObligatoire,Gravité
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-SO,Sans objet - local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,True,Non concerné
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,True,Non concerné
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur

@@ -1,0 +1,255 @@
+<div class="app-container">
+    <!-- Authentification -->
+  <div *ngIf="!isAuthenticated" >
+      <app-login></app-login>
+  </div>
+    <!-- Application principale -->
+  <div *ngIf="isAuthenticated" class="main-app">
+    <!-- Header -->
+    <mat-toolbar color="primary" style="font-size: 12px;">
+      <span>📋Maintenance des  issues & niches</span>
+      <span class="spacer"></span>
+      <span >{{currentUser?.displayName || currentUser?.email}}</span>
+      <button mat-icon-button (click)="logout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar>
+    <!-- Résumé des choix effectués -->
+    <mat-card class="choix-summary" *ngIf="hasChoix()">
+      <mat-card-content>
+        <div class="choix-chips">
+          <mat-chip *ngIf="choix.fermeture" color="primary">
+            🏢 {{choix.fermeture}}
+          </mat-chip>
+          <mat-chip *ngIf="choix.datePrevisionnelle" color="accent">
+            📅 {{choix.datePrevisionnelle | date:'dd/MM/yyyy'}}
+          </mat-chip>
+            <mat-chip *ngIf="choix.selectedNiveau">
+            ⚙️ {{choix.selectedNiveau}}
+          </mat-chip>
+          <mat-chip *ngIf="choix.typeObjet">
+            {{choix.typeObjet === 'issue' ? '🏃' : '🧯'}} {{choix.typeObjet}}
+          </mat-chip>
+          <mat-chip *ngIf="choix.objetSelectionne">
+            🎯 {{choix.objetSelectionne.codeEx}}
+          </mat-chip>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="warn" (click)="resetChoix()">
+          <mat-icon>refresh</mat-icon>
+          Recommencer
+        </button>
+      </mat-card-actions>
+    </mat-card>
+
+
+      <!-- Étape 1: Sélection Fermeture -->
+      <mat-card *ngIf="currentStep === 1" class="step-card">
+        <mat-card-header>
+          <mat-card-title>🏢 Choisir la fermeture</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Fermeture</mat-label>
+            <mat-select [(ngModel)]="selectedFermetureId" (selectionChange)="onFermetureChange()">
+              <mat-option *ngFor="let fermeture of fermetureCodeLibelle" [value]="fermeture.code">
+                {{fermeture.libelle}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary"
+                      (click)="nextStep()"
+                      [disabled]="!selectedFermetureId">
+                <mat-icon>arrow_forward</mat-icon>
+                Continuer
+              </button>
+          </mat-card-actions>
+      </mat-card>
+              <!-- Étape 2: Sélection Date -->
+      <mat-card *ngIf="currentStep === 2" class="step-card">
+        <mat-card-header>
+          <mat-card-title>📅 Choisir une date prévisionnelle</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="date-grid">
+            <mat-card *ngFor="let date of datesPrevisionnelles"
+                      class="date-card clickable"
+                      [class.selected]="selectedDate === date" 
+                      (click)="onSelectedDate(date)">
+              <mat-card-content>
+                <h3>{{date | date:'dd'}}</h3>
+                <p>{{date | date:'MMM yyyy'}}</p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="previousStep()">
+            <mat-icon>arrow_back</mat-icon>
+            Retour
+          </button>
+          <button mat-raised-button color="primary"
+                  (click)="nextStep()"
+                  [disabled]="!selectedDate">
+            <mat-icon>arrow_forward</mat-icon>
+            Continuer
+          </button>
+        </mat-card-actions>
+      </mat-card>
+<!-- Étape 3: Sélection Niveau  -->
+      <mat-card *ngIf="currentStep === 3" class="step-card">
+        <mat-card-header>
+          <mat-card-title>⚙️ Niveau d'intervention</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="date-grid">
+            <mat-card *ngFor="let ot of otPereDisponibles" 
+                      class="date-card clickable"
+                      [class.selected]="selectedOtPere === ot" 
+                      (click)="selectOtPere(ot)">
+              <mat-card-content>
+                <div>   <h3>{{ot.niveau}} <br>OT: {{ot.otPere}}</h3> </div>                 
+              </mat-card-content>
+             
+            </mat-card>
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="previousStep()">
+            <mat-icon>arrow_back</mat-icon>   Retour
+          </button>
+        </mat-card-actions> 
+      </mat-card>
+
+        <!-- Étape 4: Sélection Type d'objet -->
+      <mat-card *ngIf="currentStep === 4" class="step-card">
+        <mat-card-header>
+          <mat-card-title>⚙️   Type d'objet:</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="date-grid">
+            <mat-card *ngFor="let obj of issueNiche" 
+                      class="date-card clickable"
+                      [class.selected]="selectedTypeObjet === obj" 
+                      (click)="selectTypeObject(obj)">
+              <mat-card-content>
+                <div>   <h3>{{ (obj=='niche')? '🧯 Niche' : '🏃 Issue'}}</h3> </div>                 
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="previousStep()">
+            <mat-icon>arrow_back</mat-icon>   Retour
+          </button>
+        </mat-card-actions> 
+      </mat-card>      
+        <!-- Étape 5: Sélection object issue/niche -->
+      <mat-card *ngIf="currentStep === 5" class="step-card">
+        <mat-card-header>
+          <mat-card-title>
+            🎯 Choisir {{selectedTypeObjet === 'issue' ? 'une issue' : 'une niche'}}
+          </mat-card-title>
+          <mat-card-subtitle>
+            {{objetsDisponibles.length}} {{selectedTypeObjet}} disponibles
+          </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="objets-grid">
+            <mat-card *ngFor="let objet of objetsDisponibles"
+                      class="objet-card clickable"
+                      [class.selected]="selectedObjet === objet"
+                      [class.termine]="'Terminé' === objet.statutO" 
+                      (click)="selectObjet(objet)">
+              <mat-card-content>
+                <h3>{{objet.codeEx}}</h3>
+                <h4>{{objet.codeObjet+' - '+objet.statutO }}</h4>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="previousStep()">
+            <mat-icon>arrow_back</mat-icon>    Retour
+          </button>
+        </mat-card-actions>
+      </mat-card>
+
+      <!-- Étape 6: Saisie des contrôles -->
+      <div *ngIf="currentStep === 6 && currentOT" class="intervention-container">
+        <!-- En-tête intervention -->
+        <mat-card class="intervention-header">
+          <mat-card-content>
+            <h2>🔍 {{currentOT.id}} - {{currentOT.codeEx}} </h2>
+            <h3> {{currentOT.niveau}}</h3>               
+          </mat-card-content>
+            <mat-card-actions>
+              <button mat-button color="warn" (click)="previousStep()">
+                <mat-icon>arrow_back</mat-icon>
+                Retour au choix de l'OT
+              </button>
+              <button  mat-raised-button color="accent"
+              [disabled]="!tousPCRenseignes" (click)="envoiRapport()">
+                <mat-icon>cloud_upload</mat-icon>
+                Envoyer le rapport
+              </button>
+            </mat-card-actions>
+        </mat-card>
+          <mat-card *ngFor="let pointC of filteredPointsControle" 
+                class="objet-card clickable"
+                [class.selected]="currentControl === pointC" 
+                [class.plein]="pointC.statutC === 'pleinC'"
+                (click)="traitePoinC(pointC)">
+            <mat-card-content>
+              <h3 >{{pointC.codePC+' - '+ pointC.descPC}}</h3>
+            </mat-card-content>
+          </mat-card>
+      </div>
+      <!-- Étape 7: Sélection réponse à un point de C -->
+      <div *ngIf="currentStep === 7 && currentControl ">
+        <mat-card class="control-card">
+          <mat-card-header>
+            <mat-card-title>
+              📝 {{currentControl.descPC}}
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Réponse</mat-label>
+              <mat-select [(ngModel)]="selectedResponseCtr" >
+                <mat-option *ngFor="let point of optionsResponse" [value]="point">
+                  {{point.descRC}} 
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+            <div *ngIf="selectedResponseCtr"> 
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Commentaire {{(selectedResponseCtr.commentaireObligatoire === true) ? '(obligatoire)' : '(optionnel)'}}</mat-label>
+              <textarea matInput rows="3" [(ngModel)]="nonVideResponse.commentaire"></textarea>
+            </mat-form-field>
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button (click)="retourListeControl()">
+              <mat-icon>arrow_back</mat-icon>
+              Retour à la liste des points de contrôle
+            </button>
+            <button mat-raised-button color="primary"
+                    (click)="enregistreControl()"
+                    [disabled]="!selectedResponseCtr!.codeRC || (selectedResponseCtr?.commentaireObligatoire == true && !nonVideResponse.commentaire)">
+              <mat-icon>save</mat-icon>
+              Enregistrer la réponse
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+
+      <!-- Loading -->
+    <div *ngIf="loading" class="loading-overlay">
+      <mat-spinner></mat-spinner>
+      <p>Chargement...</p>
+    </div>  
+</div>

@@ -1,0 +1,8 @@
+ [
+    {"name": "nmOT", "type": "STRING"},
+    {"name": "equip", "type": "STRING"} ,
+    {"name": "Intervention", "type": "STRING"},
+    {"name": "OTPere", "type":"STRING"},
+    {"name": "dateDebutPrevue", "type": "STRING"},
+    {"name": "dateCharge", "type": "STRING"}
+ ]

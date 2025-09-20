@@ -1,0 +1,9 @@
+ [
+  {"name": "idOT", "type": "STRING"},
+  {"name": "user", "type": "STRING"},
+  {"name": "dateRap", "type": "STRING"},
+  {"name": "codePC", "type": "STRING"},
+  {"name": "codeRC", "type": "STRING"},
+  {"name": "commentaire", "type": "STRING"},
+  {"name": "horodate", "type": "STRING"}
+ ]

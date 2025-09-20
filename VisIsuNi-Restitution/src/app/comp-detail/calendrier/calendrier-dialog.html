@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>OT Père : {{data.otPereId}} // {{data.fermeture}} <br> {{data.secteur}} 
+   Date prévisionnelle : {{data.datePrevisionnelle | date:'d MMM yyyy':'':'fr'}}  </h2>
+<mat-dialog-content>
+  <H3>Défauts majeurs : </H3>
+<table>
+  <tbody>
+    <tr *ngFor="let article of defMajeur">
+      <td>{{ article.codeEx }}</td>
+      <td>{{ article.descPC }}</td>
+      <td>{{ article.descRC }}</td>
+      <td>{{ article.commentaire }}</td>
+    </tr>
+  </tbody>
+</table>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button matButton (click)="onNoClick()">Fermer</button>
+</mat-dialog-actions>

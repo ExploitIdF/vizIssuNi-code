@@ -1,0 +1,489 @@
+codePC,descPC,codeRC,descRC,typeObjet,niveau,commentaireObligatoire,Gravité
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-SO,Sans objet - local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P00M,"Porte tunnel coupe-feu. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P00M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P01M,Porte tunnel coupe-feu. Réglage du mécanisme de clenche/poignée,P01M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P02M,Porte tunnel coupe-feu. Réglage du mécanisme du pêne,P02M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P03M,Porte tunnel coupe-feu. Réglage du mécanisme de la barre antipanique,P03M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P04M,Porte tunnel coupe-feu. Graissage des parties métalliques mobiles du ferme-porte,P04M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P04M,Porte tunnel coupe-feu. Graissage des parties métalliques mobiles du ferme-porte,P04M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P04M,Porte tunnel coupe-feu. Graissage des parties métalliques mobiles du ferme-porte,P04M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P04M,Porte tunnel coupe-feu. Graissage des parties métalliques mobiles du ferme-porte,P04M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P05M,Porte tunnel coupe-feu. Remplacement de la visserie manquante ou détériorée,P05M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P05M,Porte tunnel coupe-feu. Remplacement de la visserie manquante ou détériorée,P05M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P05M,Porte tunnel coupe-feu. Remplacement de la visserie manquante ou détériorée,P05M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P05M,Porte tunnel coupe-feu. Remplacement de la visserie manquante ou détériorée,P05M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P06M,"Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P06M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P06M,"Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P06M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P06M,"Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P06M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P06M,"Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P06M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P07M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de clenche/poignée,P07M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P07M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de clenche/poignée,P07M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P07M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de clenche/poignée,P07M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P07M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de clenche/poignée,P07M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P08M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du pêne,P08M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P08M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du pêne,P08M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P08M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du pêne,P08M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P08M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme du pêne,P08M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P09M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de la barre antipanique,P09M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P09M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de la barre antipanique,P09M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P09M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de la barre antipanique,P09M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P09M,Porte(s) sas à l'intérieur de l'issue. Réglage du mécanisme de la barre antipanique,P09M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P10M,Porte(s) sas à l'intérieur de l'issue. Nettoyage des parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P10M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P10M,Porte(s) sas à l'intérieur de l'issue. Nettoyage des parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P10M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P10M,Porte(s) sas à l'intérieur de l'issue. Nettoyage des parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P10M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P10M,Porte(s) sas à l'intérieur de l'issue. Nettoyage des parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P10M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P11M,Porte(s) sas à l'intérieur de l'issue. Graissage des gonds,P11M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P11M,Porte(s) sas à l'intérieur de l'issue. Graissage des gonds,P11M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P11M,Porte(s) sas à l'intérieur de l'issue. Graissage des gonds,P11M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P11M,Porte(s) sas à l'intérieur de l'issue. Graissage des gonds,P11M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P12M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles de la serrure,P12M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P12M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles de la serrure,P12M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P12M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles de la serrure,P12M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P12M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles de la serrure,P12M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P13M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles du ferme-porte,P13M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P13M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles du ferme-porte,P13M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P13M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles du ferme-porte,P13M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P13M,Porte(s) sas à l'intérieur de l'issue. Graissage des parties métalliques mobiles du ferme-porte,P13M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P14M,Porte(s) sas à l'intérieur de l'issue. Remplacement de la visserie manquante ou détériorée,P14M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P14M,Porte(s) sas à l'intérieur de l'issue. Remplacement de la visserie manquante ou détériorée,P14M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P14M,Porte(s) sas à l'intérieur de l'issue. Remplacement de la visserie manquante ou détériorée,P14M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P14M,Porte(s) sas à l'intérieur de l'issue. Remplacement de la visserie manquante ou détériorée,P14M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P15M,Eclairage de secours dans le sas. Remplacement des luminaires défectueux,P15M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P15M,Eclairage de secours dans le sas. Remplacement des luminaires défectueux,P15M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P15M,Eclairage de secours dans le sas. Remplacement des luminaires défectueux,P15M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P15M,Eclairage de secours dans le sas. Remplacement des luminaires défectueux,P15M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P16M,Eclairage normal dans le sas. Remplacement des luminaires défectueux,P16M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P16M,Eclairage normal dans le sas. Remplacement des luminaires défectueux,P16M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P16M,Eclairage normal dans le sas. Remplacement des luminaires défectueux,P16M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P16M,Eclairage normal dans le sas. Remplacement des luminaires défectueux,P16M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P17M,Eclairage de secours dans l'issue. Remplacement des luminaires défectueux,P17M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P17M,Eclairage de secours dans l'issue. Remplacement des luminaires défectueux,P17M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P17M,Eclairage de secours dans l'issue. Remplacement des luminaires défectueux,P17M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P17M,Eclairage de secours dans l'issue. Remplacement des luminaires défectueux,P17M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P18M,Eclairage normal dans l'issue. Remplacement des luminaires défectueux,P18M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P18M,Eclairage normal dans l'issue. Remplacement des luminaires défectueux,P18M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P18M,Eclairage normal dans l'issue. Remplacement des luminaires défectueux,P18M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P18M,Eclairage normal dans l'issue. Remplacement des luminaires défectueux,P18M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P19M,Équipements statiques (signalétique jusqu'au point de rassemblement). Contrôle présence/état/lisibilité de toute la signalétique (intérieur et extérieur issue),P19M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P19M,Équipements statiques (signalétique jusqu'au point de rassemblement). Contrôle présence/état/lisibilité de toute la signalétique (intérieur et extérieur issue),P19M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P19M,Équipements statiques (signalétique jusqu'au point de rassemblement). Contrôle présence/état/lisibilité de toute la signalétique (intérieur et extérieur issue),P19M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P19M,Équipements statiques (signalétique jusqu'au point de rassemblement). Contrôle présence/état/lisibilité de toute la signalétique (intérieur et extérieur issue),P19M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P20M,Équipements statiques (signalétique jusqu'au point de rassemblement). Nettoyage des éléments de signalétique dans l'issue (chiffon doux imbibé d'un produit non corrosif),P20M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P20M,Équipements statiques (signalétique jusqu'au point de rassemblement). Nettoyage des éléments de signalétique dans l'issue (chiffon doux imbibé d'un produit non corrosif),P20M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P20M,Équipements statiques (signalétique jusqu'au point de rassemblement). Nettoyage des éléments de signalétique dans l'issue (chiffon doux imbibé d'un produit non corrosif),P20M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P20M,Équipements statiques (signalétique jusqu'au point de rassemblement). Nettoyage des éléments de signalétique dans l'issue (chiffon doux imbibé d'un produit non corrosif),P20M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P21M,Main-courante de l'escalier. Ajuster : Contrôle de l'état de la main-courante + consolidation si nécessaire,P21M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P21M,Main-courante de l'escalier. Ajuster : Contrôle de l'état de la main-courante + consolidation si nécessaire,P21M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P21M,Main-courante de l'escalier. Ajuster : Contrôle de l'état de la main-courante + consolidation si nécessaire,P21M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P21M,Main-courante de l'escalier. Ajuster : Contrôle de l'état de la main-courante + consolidation si nécessaire,P21M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P22M,Caméra anti-intrusion. Vérification de l'absence de dégradations visibles,P22M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P22M,Caméra anti-intrusion. Vérification de l'absence de dégradations visibles,P22M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P22M,Caméra anti-intrusion. Vérification de l'absence de dégradations visibles,P22M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P22M,Caméra anti-intrusion. Vérification de l'absence de dégradations visibles,P22M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P23M,Porte/portillon sortie issue. Contrôle de la possibilité d'ouverture de la porte,P23M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P23M,Porte/portillon sortie issue. Contrôle de la possibilité d'ouverture de la porte,P23M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P23M,Porte/portillon sortie issue. Contrôle de la possibilité d'ouverture de la porte,P23M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P23M,Porte/portillon sortie issue. Contrôle de la possibilité d'ouverture de la porte,P23M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P24M,Porte/portillon sortie issue. Analyse de l'effort nécessaire à l'ouverture de la porte,P24M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P24M,Porte/portillon sortie issue. Analyse de l'effort nécessaire à l'ouverture de la porte,P24M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P24M,Porte/portillon sortie issue. Analyse de l'effort nécessaire à l'ouverture de la porte,P24M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P24M,Porte/portillon sortie issue. Analyse de l'effort nécessaire à l'ouverture de la porte,P24M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P25M,Porte/portillon sortie issue. Vérification de l'état général de la porte extérieure (dégradations ?),P25M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P25M,Porte/portillon sortie issue. Vérification de l'état général de la porte extérieure (dégradations ?),P25M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P25M,Porte/portillon sortie issue. Vérification de l'état général de la porte extérieure (dégradations ?),P25M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P25M,Porte/portillon sortie issue. Vérification de l'état général de la porte extérieure (dégradations ?),P25M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P26M,Porte/portillon sortie issue. Contrôle de l'absence de problème d'étanchéité,P26M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P26M,Porte/portillon sortie issue. Contrôle de l'absence de problème d'étanchéité,P26M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P26M,Porte/portillon sortie issue. Contrôle de l'absence de problème d'étanchéité,P26M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P26M,Porte/portillon sortie issue. Contrôle de l'absence de problème d'étanchéité,P26M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P27M,Porte/portillon sortie issue. Contrôle de la bonne fermeture en autonomie de la porte,P27M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P27M,Porte/portillon sortie issue. Contrôle de la bonne fermeture en autonomie de la porte,P27M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P27M,Porte/portillon sortie issue. Contrôle de la bonne fermeture en autonomie de la porte,P27M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P27M,Porte/portillon sortie issue. Contrôle de la bonne fermeture en autonomie de la porte,P27M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P28M,Porte/portillon sortie issue. Signalement d'autres anomalies éventuelles (OK si RAS),P28M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P28M,Porte/portillon sortie issue. Signalement d'autres anomalies éventuelles (OK si RAS),P28M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P28M,Porte/portillon sortie issue. Signalement d'autres anomalies éventuelles (OK si RAS),P28M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P28M,Porte/portillon sortie issue. Signalement d'autres anomalies éventuelles (OK si RAS),P28M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P29M,"Porte/portillon sortie issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P29M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P29M,"Porte/portillon sortie issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P29M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P29M,"Porte/portillon sortie issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P29M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P29M,"Porte/portillon sortie issue. Réglage du mécanisme du ferme-porte (frein à l'ouverture, vitesse de fermeture, à-coup final)",P29M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P30M,Porte/portillon sortie issue. Réglage du mécanisme de clenche/poignée,P30M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P30M,Porte/portillon sortie issue. Réglage du mécanisme de clenche/poignée,P30M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P30M,Porte/portillon sortie issue. Réglage du mécanisme de clenche/poignée,P30M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P30M,Porte/portillon sortie issue. Réglage du mécanisme de clenche/poignée,P30M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P31M,Porte/portillon sortie issue. Réglage du mécanisme du pêne,P31M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P31M,Porte/portillon sortie issue. Réglage du mécanisme du pêne,P31M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P31M,Porte/portillon sortie issue. Réglage du mécanisme du pêne,P31M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P31M,Porte/portillon sortie issue. Réglage du mécanisme du pêne,P31M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P32M,Porte/portillon sortie issue. Réglage du mécanisme de la barre antipanique,P32M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P32M,Porte/portillon sortie issue. Réglage du mécanisme de la barre antipanique,P32M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P32M,Porte/portillon sortie issue. Réglage du mécanisme de la barre antipanique,P32M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P32M,Porte/portillon sortie issue. Réglage du mécanisme de la barre antipanique,P32M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P33M,Porte/portillon sortie issue. Nettoyage : Parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P33M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P33M,Porte/portillon sortie issue. Nettoyage : Parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P33M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P33M,Porte/portillon sortie issue. Nettoyage : Parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P33M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P33M,Porte/portillon sortie issue. Nettoyage : Parements inox des vantaux (chiffon doux imbibé d'un produit non corrosif),P33M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P34M,Porte/portillon sortie issue. Graissage des gonds,P34M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P34M,Porte/portillon sortie issue. Graissage des gonds,P34M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P34M,Porte/portillon sortie issue. Graissage des gonds,P34M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P34M,Porte/portillon sortie issue. Graissage des gonds,P34M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P35M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Serrure,P35M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P35M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Serrure,P35M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P35M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Serrure,P35M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P35M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Serrure,P35M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P36M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Ferme-porte,P36M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P36M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Ferme-porte,P36M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P36M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Ferme-porte,P36M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P36M,Porte/portillon sortie issue. Graissage des parties métalliques mobiles - Ferme-porte,P36M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P37M,Porte/portillon sortie issue. Remplacement : Visserie manquante ou détériorée,P37M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P37M,Porte/portillon sortie issue. Remplacement : Visserie manquante ou détériorée,P37M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P37M,Porte/portillon sortie issue. Remplacement : Visserie manquante ou détériorée,P37M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P37M,Porte/portillon sortie issue. Remplacement : Visserie manquante ou détériorée,P37M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P38M,Éclairage extérieur. Contrôle de l'activation et de la qualité de l'éclairage extérieur,P38M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P38M,Éclairage extérieur. Contrôle de l'activation et de la qualité de l'éclairage extérieur,P38M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P38M,Éclairage extérieur. Contrôle de l'activation et de la qualité de l'éclairage extérieur,P38M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P38M,Éclairage extérieur. Contrôle de l'activation et de la qualité de l'éclairage extérieur,P38M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P39M,Éclairage extérieur. Remplacement des luminaires défectueux,P39M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P39M,Éclairage extérieur. Remplacement des luminaires défectueux,P39M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P39M,Éclairage extérieur. Remplacement des luminaires défectueux,P39M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P39M,Éclairage extérieur. Remplacement des luminaires défectueux,P39M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P40M,GTC ouverture porte tunnel. Contrôle de la remontée de l'information dans la GTC (avec le PC),P40M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P40M,GTC ouverture porte tunnel. Contrôle de la remontée de l'information dans la GTC (avec le PC),P40M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P40M,GTC ouverture porte tunnel. Contrôle de la remontée de l'information dans la GTC (avec le PC),P40M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P40M,GTC ouverture porte tunnel. Contrôle de la remontée de l'information dans la GTC (avec le PC),P40M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P41M,GTC intrusion porte extérieure. Contrôle de la remontée de l'information dans la GTC (avec le PC),P41M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P41M,GTC intrusion porte extérieure. Contrôle de la remontée de l'information dans la GTC (avec le PC),P41M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P41M,GTC intrusion porte extérieure. Contrôle de la remontée de l'information dans la GTC (avec le PC),P41M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P41M,GTC intrusion porte extérieure. Contrôle de la remontée de l'information dans la GTC (avec le PC),P41M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P42M,GTC Détection présence en IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P42M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P42M,GTC Détection présence en IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P42M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P42M,GTC Détection présence en IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P42M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P42M,GTC Détection présence en IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P42M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P43M,GTC Visualisation caméra IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P43M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P43M,GTC Visualisation caméra IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P43M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P43M,GTC Visualisation caméra IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P43M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P43M,GTC Visualisation caméra IS. Contrôle de la remontée de l'information dans la GTC (avec le PC),P43M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P44M,Bilan général de l'issue.  Signalement d'autres anomalies éventuelles (OK si RAS),P44M-OK,Pas de défaut (OK),issue,Maintenance annuelle,False,Non concerné
+P44M,Bilan général de l'issue.  Signalement d'autres anomalies éventuelles (OK si RAS),P44M-NOK,Défaut constaté (NOK),issue,Maintenance annuelle,True,Défaut majeur
+P44M,Bilan général de l'issue.  Signalement d'autres anomalies éventuelles (OK si RAS),P44M-SO,Sans objet : local non équipé (SO),issue,Maintenance annuelle,False,Non concerné
+P44M,Bilan général de l'issue.  Signalement d'autres anomalies éventuelles (OK si RAS),P44M-NE,Contrôle non effectué (NE),issue,Maintenance annuelle,True,Défaut majeur
+P45M,Éclairage niche. Remplacement des luminaires défectueux dans la niche,P45M-OK,Pas de défaut (OK),niche,Maintenance annuelle,False,Non concerné
+P45M,Éclairage niche. Remplacement des luminaires défectueux dans la niche,P45M-NOK,Défaut constaté (NOK),niche,Maintenance annuelle,True,Défaut majeur
+P45M,Éclairage niche. Remplacement des luminaires défectueux dans la niche,P45M-SO,Sans objet : local non équipé (SO),niche,Maintenance annuelle,False,Non concerné
+P45M,Éclairage niche. Remplacement des luminaires défectueux dans la niche,P45M-NE,Contrôle non effectué (NE),niche,Maintenance annuelle,True,Défaut majeur
+P46M,GTC décroché extincteur. Contrôle de la remontée de l'information dans la GTC (avec le PC),P46M-OK,Pas de défaut (OK),niche,Maintenance annuelle,False,Non concerné
+P46M,GTC décroché extincteur. Contrôle de la remontée de l'information dans la GTC (avec le PC),P46M-NOK,Défaut constaté (NOK),niche,Maintenance annuelle,True,Défaut majeur
+P46M,GTC décroché extincteur. Contrôle de la remontée de l'information dans la GTC (avec le PC),P46M-SO,Sans objet : local non équipé (SO),niche,Maintenance annuelle,False,Non concerné
+P46M,GTC décroché extincteur. Contrôle de la remontée de l'information dans la GTC (avec le PC),P46M-NE,Contrôle non effectué (NE),niche,Maintenance annuelle,True,Défaut majeur
+P47M,Bilan général de la niche. Signalement d'autres anomalies éventuelles (OK si RAS),P47M-OK,Pas de défaut (OK),niche,Maintenance annuelle,False,Non concerné
+P47M,Bilan général de la niche. Signalement d'autres anomalies éventuelles (OK si RAS),P47M-NOK,Défaut constaté (NOK),niche,Maintenance annuelle,True,Défaut mineur
+P47M,Bilan général de la niche. Signalement d'autres anomalies éventuelles (OK si RAS),P47M-SO,Sans objet : local non équipé (SO),niche,Maintenance annuelle,False,Non concerné
+P47M,Bilan général de la niche. Signalement d'autres anomalies éventuelles (OK si RAS),P47M-NE,Contrôle non effectué (NE),niche,Maintenance annuelle,True,Défaut majeur
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,True,Non concerné
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,True,Non concerné
+P48J,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (inférieur à 10 secondes),P48J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P49J,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P50J,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P51J,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P51J,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P51J,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P51J,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P52J,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P52J,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P52J,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P52J,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P53J,Surpression. Contrôler la seconde ouverture de la porte DEPUIS LE SAS avec la surpression activée,P53J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P53J,Surpression. Contrôler la seconde ouverture de la porte DEPUIS LE SAS avec la surpression activée,P53J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P53J,Surpression. Contrôler la seconde ouverture de la porte DEPUIS LE SAS avec la surpression activée,P53J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P53J,Surpression. Contrôler la seconde ouverture de la porte DEPUIS LE SAS avec la surpression activée,P53J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P54J,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P54J,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P54J,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P54J,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P55J,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P55J,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P55J,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P55J,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P56J,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P56J,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P56J,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P56J,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P57J,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P57J,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P57J,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P57J,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P58J,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P58J,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P58J,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P58J,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P59J,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P59J,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P59J,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P59J,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P60J,Eclairage normal dans le sas. Contrôler : Activation et qualité de l'éclairage normal,P60J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P60J,Eclairage normal dans le sas. Contrôler : Activation et qualité de l'éclairage normal,P60J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P60J,Eclairage normal dans le sas. Contrôler : Activation et qualité de l'éclairage normal,P60J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P60J,Eclairage normal dans le sas. Contrôler : Activation et qualité de l'éclairage normal,P60J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P61J,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P61J,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P61J,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P61J,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P62J,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P62J,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P62J,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P62J,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P63J,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P63J,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P63J,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P63J,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P64J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P64J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P64J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P64J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P65J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'étanchéité de la porte (joints),P65J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P65J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'étanchéité de la porte (joints),P65J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P65J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'étanchéité de la porte (joints),P65J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P65J,Porte(s) sas à l'intérieur de l'issue. Contrôler l'étanchéité de la porte (joints),P65J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P66J,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P66J,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P66J,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P66J,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P67J,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P67J,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P67J,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P67J,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P68J,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P68J,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P68J,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P68J,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P69J,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P69J,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P69J,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P69J,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P70J,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P70J,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P70J,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P70J,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P71J,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P71J,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P71J,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P71J,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P72J,Eclairage de secours dans l'issue. Contrôler l'activation et la qualité de l'éclairage normal,P72J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P72J,Eclairage de secours dans l'issue. Contrôler l'activation et la qualité de l'éclairage normal,P72J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P72J,Eclairage de secours dans l'issue. Contrôler l'activation et la qualité de l'éclairage normal,P72J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P72J,Eclairage de secours dans l'issue. Contrôler l'activation et la qualité de l'éclairage normal,P72J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P73J,Caméra détection. Vérifier l'absence de dégradation visibles,P73J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P73J,Caméra détection. Vérifier l'absence de dégradation visibles,P73J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P73J,Caméra détection. Vérifier l'absence de dégradation visibles,P73J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P73J,Caméra détection. Vérifier l'absence de dégradation visibles,P73J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P74J,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P74J,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P74J,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P74J,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P75J,Téléphone de sécurité (TSE). Vérifier : Absence de dégradation visibles,P75J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P75J,Téléphone de sécurité (TSE). Vérifier : Absence de dégradation visibles,P75J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P75J,Téléphone de sécurité (TSE). Vérifier : Absence de dégradation visibles,P75J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P75J,Téléphone de sécurité (TSE). Vérifier : Absence de dégradation visibles,P75J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P76J,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P76J,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut majeur
+P76J,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P76J,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut majeur
+P77J,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77J-OK,Pas de défaut (OK),issue,Bimestrielle de jour,False,Non concerné
+P77J,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77J-NOK,Défaut constaté (NOK),issue,Bimestrielle de jour,True,Défaut mineur
+P77J,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77J-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de jour,False,Non concerné
+P77J,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77J-NE,Contrôle non effectué (NE),issue,Bimestrielle de jour,True,Défaut mineur
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P78N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P78N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P79N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence d'eau devant la porte coupe-feu,P79N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P80N,Propreté/vacuité avant la porte coupe-feu. Contrôler l'absence de détritus devant la porte coupe-feu,P80N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P81N,Propreté/vacuité avant la porte coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P81N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P81N,Propreté/vacuité avant la porte coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P81N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P81N,Propreté/vacuité avant la porte coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P81N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P81N,Propreté/vacuité avant la porte coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P81N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P82N,Porte tunnel coupe-feu. Contrôler la possibilité d'ouverture de la porte,P82N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P82N,Porte tunnel coupe-feu. Contrôler la possibilité d'ouverture de la porte,P82N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P82N,Porte tunnel coupe-feu. Contrôler la possibilité d'ouverture de la porte,P82N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P82N,Porte tunnel coupe-feu. Contrôler la possibilité d'ouverture de la porte,P82N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P83N,Porte tunnel coupe-feu. Analyser l'effort nécessaire à l'ouverture de la porte,P83N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P83N,Porte tunnel coupe-feu. Analyser l'effort nécessaire à l'ouverture de la porte,P83N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P83N,Porte tunnel coupe-feu. Analyser l'effort nécessaire à l'ouverture de la porte,P83N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P83N,Porte tunnel coupe-feu. Analyser l'effort nécessaire à l'ouverture de la porte,P83N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P84N,Porte tunnel coupe-feu. Vérifier la fermeture en autonomie de la porte coupe-feu,P84N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P84N,Porte tunnel coupe-feu. Vérifier la fermeture en autonomie de la porte coupe-feu,P84N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P84N,Porte tunnel coupe-feu. Vérifier la fermeture en autonomie de la porte coupe-feu,P84N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P84N,Porte tunnel coupe-feu. Vérifier la fermeture en autonomie de la porte coupe-feu,P84N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P85N,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (doit être inférieur à 10 secondes),P85N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,True,Non concerné
+P85N,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (doit être inférieur à 10 secondes),P85N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P85N,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (doit être inférieur à 10 secondes),P85N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,True,Non concerné
+P85N,Porte tunnel coupe-feu. Mesurer le temps de fermeture en autonomie (doit être inférieur à 10 secondes),P85N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P49N,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P49N,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P49N,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P49N,Porte tunnel coupe-feu. Contrôler l'étanchéité de la porte (joints),P49N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P50N,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P50N,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P50N,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P50N,Porte tunnel coupe-feu. Contrôler l'état général de la porte coupe-feu (chocs…),P50N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P51N,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P51N,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P51N,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P51N,Porte tunnel coupe-feu. Signaler d'éventuelles autres anomalies (OK si RAS),P51N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P52N,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P52N,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P52N,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P52N,Surpression. Vérifier l'activation de la surpression à l'ouverture de la porte (bruit de soufflerie),P52N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P86N,Surpression. Contrôler la seconde ouverture de la porte avec la surpression activée,P86N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P86N,Surpression. Contrôler la seconde ouverture de la porte avec la surpression activée,P86N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P86N,Surpression. Contrôler la seconde ouverture de la porte avec la surpression activée,P86N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P86N,Surpression. Contrôler la seconde ouverture de la porte avec la surpression activée,P86N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P54N,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P54N,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P54N,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P54N,Surpression. Signaler d'éventuelles autres anomalies (OK si RAS),P54N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P55N,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P55N,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P55N,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P55N,Propreté et vacuité dans le sas. Contrôler l'absence d'encombrement dans le sas,P55N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P56N,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P56N,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P56N,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P56N,Propreté et vacuité dans le sas. Contrôler l'absence d'eau dans le sas,P56N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P57N,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P57N,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P57N,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P57N,Propreté et vacuité dans le sas. Contrôler l'absence de salissures/graffitis ou déchets dans le sas,P57N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P58N,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P58N,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P58N,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P58N,Propreté et vacuité dans le sas. Signaler d'éventuelles autres anomalies (OK si RAS),P58N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P59N,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P59N,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P59N,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P59N,Eclairage de secours dans le sas. Contrôler la présence et la qualité de l'éclairage de secours,P59N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P87N,Eclairage normal dans le sas. Contrôler l'activation et qualité de l'éclairage normal,P87N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P87N,Eclairage normal dans le sas. Contrôler l'activation et qualité de l'éclairage normal,P87N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P87N,Eclairage normal dans le sas. Contrôler l'activation et qualité de l'éclairage normal,P87N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P87N,Eclairage normal dans le sas. Contrôler l'activation et qualité de l'éclairage normal,P87N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P61N,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P61N,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P61N,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P61N,Porte(s) sas à l'intérieur de l'issue. Contrôler la possibilité d'ouverture de la porte,P61N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P62N,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P62N,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P62N,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P62N,Porte(s) sas à l'intérieur de l'issue. Analyser l'effort nécessaire à l'ouverture de la porte,P62N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P63N,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P63N,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P63N,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P63N,Porte(s) sas à l'intérieur de l'issue. Vérifier la fermeture en autonomie de la porte sas,P63N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P64N,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P64N,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P64N,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P64N,Porte(s) sas à l'intérieur de l'issue. Contrôler l'état général de la porte sas (chocs…),P64N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P88N,Porte(s) sas à l'intérieur de l'issue. Contrôle de l'étanchéité de la porte (joints),P88N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P88N,Porte(s) sas à l'intérieur de l'issue. Contrôle de l'étanchéité de la porte (joints),P88N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P88N,Porte(s) sas à l'intérieur de l'issue. Contrôle de l'étanchéité de la porte (joints),P88N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P88N,Porte(s) sas à l'intérieur de l'issue. Contrôle de l'étanchéité de la porte (joints),P88N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P66N,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P66N,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P66N,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P66N,Porte(s) sas à l'intérieur de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P66N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P67N,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P67N,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P67N,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P67N,Propreté et vacuité dans l'issue. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P67N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P68N,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P68N,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P68N,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P68N,Propreté et vacuité dans l'issue. Contrôler l'absence d'eau dans l'issue,P68N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P69N,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P69N,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P69N,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P69N,Propreté et vacuité dans l'issue. Contrôler l'absence de salissures/graffitis ou déchets dans l'issue,P69N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P70N,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P70N,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P70N,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P70N,Propreté et vacuité dans l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P70N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P71N,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P71N,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P71N,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P71N,Eclairage de secours dans l'issue. Contrôler la présence et la qualité de l'éclairage de secours,P71N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P89N,Eclairage normal dans l'issue. Contrôler : Activation et la qualité de l'éclairage normal,P89N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P89N,Eclairage normal dans l'issue. Contrôler : Activation et la qualité de l'éclairage normal,P89N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P89N,Eclairage normal dans l'issue. Contrôler : Activation et la qualité de l'éclairage normal,P89N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P89N,Eclairage normal dans l'issue. Contrôler : Activation et la qualité de l'éclairage normal,P89N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P73N,Caméra détection. Vérifier l'absence de dégradation visibles,P73N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P73N,Caméra détection. Vérifier l'absence de dégradation visibles,P73N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P73N,Caméra détection. Vérifier l'absence de dégradation visibles,P73N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P73N,Caméra détection. Vérifier l'absence de dégradation visibles,P73N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P74N,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P74N,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P74N,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P74N,Détecteur de présence. Vérifier le passage du voyant du rouge au vert,P74N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P90N,Téléphone de sécurité (TSE). Vérifier l'absence de dégradation visibles,P90N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P90N,Téléphone de sécurité (TSE). Vérifier l'absence de dégradation visibles,P90N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P90N,Téléphone de sécurité (TSE). Vérifier l'absence de dégradation visibles,P90N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P90N,Téléphone de sécurité (TSE). Vérifier l'absence de dégradation visibles,P90N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P76N,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P76N,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut majeur
+P76N,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P76N,Armoire(s) PST. Vérifier l'absence de dégradation visibles,P76N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut majeur
+P77N,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77N-OK,Pas de défaut (OK),issue,Bimestrielle de nuit,False,Non concerné
+P77N,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77N-NOK,Défaut constaté (NOK),issue,Bimestrielle de nuit,True,Défaut mineur
+P77N,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77N-SO,Sans objet : local non équipé (SO),issue,Bimestrielle de nuit,False,Non concerné
+P77N,Bilan général de l'issue. Signaler d'éventuelles autres anomalies (OK si RAS),P77N-NE,Contrôle non effectué (NE),issue,Bimestrielle de nuit,True,Défaut mineur
+P91N,Accessibilité des équipements. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P91N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P91N,Accessibilité des équipements. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P91N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut majeur
+P91N,Accessibilité des équipements. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P91N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P91N,Accessibilité des équipements. Contrôler l'absence d'obstacles gênant ou empêchant le passage,P91N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut majeur
+P92N,Extincteurs. Contrôler la présence de deux extincteurs,P92N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P92N,Extincteurs. Contrôler la présence de deux extincteurs,P92N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut majeur
+P92N,Extincteurs. Contrôler la présence de deux extincteurs,P92N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P92N,Extincteurs. Contrôler la présence de deux extincteurs,P92N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut majeur
+P93N,Poste d'appel d'ugence (PAU). Vérifier l'absence d'anomalies au contrôle visuel,P93N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P93N,Poste d'appel d'ugence (PAU). Vérifier l'absence d'anomalies au contrôle visuel,P93N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut majeur
+P93N,Poste d'appel d'ugence (PAU). Vérifier l'absence d'anomalies au contrôle visuel,P93N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P93N,Poste d'appel d'ugence (PAU). Vérifier l'absence d'anomalies au contrôle visuel,P93N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut majeur
+P94N,Poste d'appel d'ugence (PAU). Relever le numéro du PAU en commentaire,P94N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,True,Non concerné
+P94N,Poste d'appel d'ugence (PAU). Relever le numéro du PAU en commentaire,P94N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Non concerné
+P94N,Poste d'appel d'ugence (PAU). Relever le numéro du PAU en commentaire,P94N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P94N,Poste d'appel d'ugence (PAU). Relever le numéro du PAU en commentaire,P94N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Non concerné
+P95N,Éclairage niche. Vérifier l'éclairage suffisant de la niche,P95N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P95N,Éclairage niche. Vérifier l'éclairage suffisant de la niche,P95N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut majeur
+P95N,Éclairage niche. Vérifier l'éclairage suffisant de la niche,P95N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P95N,Éclairage niche. Vérifier l'éclairage suffisant de la niche,P95N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut majeur
+P96N,Poteaux/bornes d'incendie. Vérifier l'absence d'anomalies au contrôle visuel,P96N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P96N,Poteaux/bornes d'incendie. Vérifier l'absence d'anomalies au contrôle visuel,P96N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut majeur
+P96N,Poteaux/bornes d'incendie. Vérifier l'absence d'anomalies au contrôle visuel,P96N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P96N,Poteaux/bornes d'incendie. Vérifier l'absence d'anomalies au contrôle visuel,P96N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut majeur
+P97N,Bilan général de la niche. Signaler d'éventuelles autres anomalies (OK si RAS),P97N-OK,Pas de défaut (OK),niche,Bimestrielle de nuit,False,Non concerné
+P97N,Bilan général de la niche. Signaler d'éventuelles autres anomalies (OK si RAS),P97N-NOK,Défaut constaté (NOK),niche,Bimestrielle de nuit,True,Défaut mineur
+P97N,Bilan général de la niche. Signaler d'éventuelles autres anomalies (OK si RAS),P97N-SO,Sans objet : local non équipé (SO),niche,Bimestrielle de nuit,False,Non concerné
+P97N,Bilan général de la niche. Signaler d'éventuelles autres anomalies (OK si RAS),P97N-NE,Contrôle non effectué (NE),niche,Bimestrielle de nuit,True,Défaut mineur

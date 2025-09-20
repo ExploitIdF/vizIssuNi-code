@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 8px; // Un peu de padding pour mobile
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: inherit; // Hérite la couleur du mat-toolbar (blanc sur fond primary par défaut)
+  margin-right: 16px; // Espace entre le nom de l'app et l'élément suivant
+}
+
+.navbar-text {
+  margin: 0 8px;
+}
+
+.guest-text {
+  // Styles spécifiques pour "Mode Invité" si nécessaire
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.mobile-menu-trigger {
+  display: none; // Caché par défaut, affiché par media query
+
+  // Assurer que l'icône à l'intérieur est blanche
+  mat-icon {
+    color: white;
+  }
+}
+
+.desktop-only-flex {
+  display: flex; // Affichage par défaut pour les écrans larges
+  align-items: center;
+
+  button {
+    margin-left: 8px;
+  }
+}
+
+.user-account-button {
+  .user-email {
+    margin-right: 4px; // Espace entre l'email et l'icône utilisateur
+  }
+  .menu-arrow-icon {
+    font-size: 20px; // Ajuster la taille de la flèche si besoin
+    width: 20px;
+    height: 20px;
+  }
+}
+
+// --- Media Query pour la vue Mobile ---
+$mobile-breakpoint: 768px; // Définir le point de rupture comme variable
+
+@media (max-width: #{$mobile-breakpoint}) {
+  .navbar {
+    padding: 0 4px 0 8px; // Ajuster le padding si le hamburger est à gauche
+  }
+
+  .mobile-menu-trigger {
+    display: inline-flex; // Afficher le bouton hamburger
+    margin-right: 8px;   // Espace entre le hamburger et le nom de l'app
+  }
+
+  .desktop-only-flex {
+    display: none; // Cacher les boutons Connexion/S'inscrire de bureau
+  }
+
+  .mobile-hidden {
+    display: none !important; // Cacher les éléments comme "Mode Invité", email utilisateur, flèche dropdown
+  }
+
+  .navbar-brand {
+    // Si le nom de l'application est long, vous pourriez vouloir le tronquer
+    // ou réduire sa taille de police sur de très petits écrans.
+    // font-size: 0.9em;
+  }
+
+  .user-account-button {
+    min-width: auto;      // Permettre au bouton icône de rétrécir
+    padding: 0 8px;       // Ajuster le padding pour un bouton avec seulement une icône
+
+    .user-email, .menu-arrow-icon { // Cacher l'email et la flèche dropdown
+      display: none;
+    }
+  }
+}
+
+.logout-error-bar {
+  background-color: #f8d7da; // Rouge clair
+  color: #721c24;           // Rouge foncé
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid #f5c6cb; // Bordure rouge plus claire
+}

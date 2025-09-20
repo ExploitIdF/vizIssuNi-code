@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "ot_pere",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fermetureId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "datePrevisionnelle",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

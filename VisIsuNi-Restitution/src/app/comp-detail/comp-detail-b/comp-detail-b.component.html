@@ -1,0 +1,8 @@
+<div *ngIf="pointsControle$ | async as points" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ccc;">
+    <h3>Liste des Points de Contrôle configurés </h3>
+    <ul>
+        <li *ngFor="let point of points">
+            {{ point.codePC+" : "+  point.descPC+" --- "+point.codeRC+" : "+point.descRC  }} 
+        </li>
+    </ul>
+</div>

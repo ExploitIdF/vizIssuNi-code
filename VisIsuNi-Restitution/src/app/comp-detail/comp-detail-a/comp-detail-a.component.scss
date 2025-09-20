@@ -1,0 +1,99 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #666;
+}
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: stretch;
+  margin-top: 10px;
+}
+.selected-fermeture-title {
+  font-size: 1.2em; 
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+/* Appliquer une taille de police plus grande au champ de sélection visible */
+
+/*
+  ::ng-deep est utilisé ici pour s'assurer que le style s'applique aussi
+  au panneau déroulant, qui est techniquement en dehors de ce composant.
+*/
+::ng-deep .mat-mdc-select-panel .mat-mdc-option {
+  font-size: 1.8em; /* Taille de police cohérente avec le champ */
+  min-height: 52px; /* Hauteur de ligne plus grande pour une meilleure lisibilité */
+}
+
+.table-container {
+  margin-top: 1rem;
+}
+
+.ot-fils-table {
+  width: 100%;
+}
+
+.ot-fils-table .mat-mdc-row:hover {
+  background-color: #f5f5f5;
+}
+
+.mat-mdc-row {
+  cursor: pointer;
+}
+
+.selected-row {
+  background-color: #e8f0fe !important; /* Une couleur bleu clair pour indiquer la sélection */
+}
+
+.selected-ot-fils-details {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+
+  pre {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+}
+
+.two-column-container {
+  display: flex;
+  flex-wrap: wrap; // Permet le retour à la ligne sur les petits écrans
+  gap: 20px; // Espace entre les colonnes
+  margin-top: 1rem;
+}
+
+.left-column {
+  flex: 2; // Prend 2/3 de l'espace
+  max-width: 400px; 
+}
+
+.right-column {
+  flex: 1; // Prend 1/3 de l'espace
+  min-width: 650px;
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 4px;
+
+  h5 {
+    margin-top: 0;
+  }
+}
+
+.report-content {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  white-space: pre-wrap; // Permet le retour à la ligne automatique
+  word-wrap: break-word; // Coupe les mots longs si nécessaire
+  font-family: monospace;
+}

@@ -1,0 +1,88 @@
+
+<div *ngIf="fermetures$ | async as fermetures">
+    <div class="selection-container">
+        <mat-form-field appearance="outline" class="fermeture-select-field">
+        <mat-label>Sélectionner une fermeture</mat-label> 
+        <mat-select [(ngModel)]="selectedFermeture" (ngModelChange)="onFermetureChange($event)">
+            <mat-option *ngFor="let fermeture of fermetures" [value]="fermeture">
+            {{ fermeture.nom }}
+            </mat-option>
+        </mat-select>
+        </mat-form-field>
+        <div *ngIf="selectedFermeture" class="selected-fermeture-title">
+        <h3>{{ selectedFermeture.nom }}</h3>
+        </div>
+    </div>
+    <!-- Affichage des OT Pères -->
+    <div *ngIf="!isLoadingOtPeres && selectedFermeture && otPeres.length > 0" style="margin-top: 1rem;">
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <button *ngFor="let dateC of datesCouleurs" (click)="onOtPereClick(dateC.id)"
+        [style.backgroundColor]="dateC.color"
+        [style.border]="dateC.id === selectedOtId ? '3px solid blue' : '1px solid #ccc'"
+        style="width: 150px; padding: 7px; border-radius: 4px; cursor: pointer; text-align: center;">
+        {{ dateC.date }} <br> {{ dateC.niveau }} <br> OT:{{ dateC.id }}
+      </button>
+        </div>
+    </div>
+    <div *ngIf="selectedOtId" style="margin-top: 1.5rem;"> 
+      <h4>OT Fils pour l'OT Père : {{ selectedOtId }}</h4>
+        <div class="two-column-container">
+            <!-- Colonne de gauche pour le tableau -->
+            <div class="left-column">
+            <!-- Section pour afficher les OT Fils -->
+                <div *ngIf="!isLoadingOtFils && otFils.length > 0" class="table-container">
+                    <table mat-table [dataSource]="otFils" class="mat-elevation-z2 ot-fils-table">
+
+                    <!-- Colonnes dynamiques basées sur displayedColumnsForOtFils -->
+                    <ng-container matColumnDef="codeEx">
+                        <th mat-header-cell *matHeaderCellDef> Code Ex. </th>
+                        <td mat-cell *matCellDef="let element"> {{element.codeEx}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="codeObjet">
+                        <th mat-header-cell *matHeaderCellDef> Code Objet </th>
+                        <td mat-cell *matCellDef="let element"> {{element.codeObjet}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="id">
+                        <th mat-header-cell *matHeaderCellDef> OT_Fils </th>
+                        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="statutF">
+                        <th mat-header-cell *matHeaderCellDef> Statut </th>
+                        <td mat-cell *matCellDef="let element"> {{element.statutF}} </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumnsForOtFils"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumnsForOtFils;" (click)="onOtFilsRowClick(row)" [class.selected-row]="row.id === selectedOtFils?.id"></tr>
+                    </table>
+                </div>
+                <div *ngIf="!isLoadingOtFils && otFils.length === 0" style="margin-top: 1rem;">
+                    <p>Aucun OT Fils trouvé pour cet OT Père.</p>
+                </div>
+            </div>
+            <!-- Colonne de droite  -->
+            <div class="right-column">
+                <div *ngIf="!selectedOtFils">
+                    <p>Sélectionnez un OT Fils dans le tableau de gauche pour voir les détails du rapport d'intervention ici.</p>
+                </div>
+                <div *ngIf="selectedOtFils">
+                    <h5>Rapport pour OT Fils {{ selectedOtFils.id }}</h5>
+                    <div *ngIf="reponse && !isLoadingReponse">
+                        <p><strong>Date:</strong> {{ reponse.dateCreation | slice:0:16   }}
+                        <strong>Intervenant:</strong> {{ reponse.intervenantNom }}</p>
+                        <p><strong>Rapport:</strong></p>
+                        <div *ngFor="let rep of reponse.reponses">
+                            <p><strong>PC:</strong> {{ rep.descPC }}     <strong>RC:</strong> {{ rep.descRC }}</p>
+                            <p *ngIf="rep.commentaire?.length > 0"><strong>Commentaire:</strong> {{ rep.commentaire }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="!isLoadingOtPeres && selectedFermeture && otPeres.length === 0" style="margin-top: 1rem;">
+        <p>Aucun OT Père trouvé pour cette fermeture.</p>
+    </div>
+</div>

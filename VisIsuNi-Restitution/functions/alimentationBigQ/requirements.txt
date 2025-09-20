@@ -1,0 +1,11 @@
+google-cloud-storage
+google-cloud-firestore
+google-cloud-bigquery
+google-cloud-functions
+pandas 
+pandas_gbq
+
+cloudevents==1.11.0 
+
+# The functions-framework dependency is often automatically added by Buildpacks.
+# You might not need to list 

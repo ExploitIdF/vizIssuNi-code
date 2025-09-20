@@ -1,0 +1,22 @@
+# Back-up (BU)
+2509  
+Pour le répertoire stock-responses, on fait un BU à 8:00 du mardi au vendredi (C'est le scheduleur qui pilote). 
+Initialement le BU se faisait dans le bucket firebasestorage.app.  
+On le déplace dans back-up-vizissuni
+### Code
+J'ai accepté des modifications importantes de Gemini Flash 2.5   
+Pour déployer :  
+`gcloud run deploy backup-reponses-to-bu-bucket   --source . --function backup_reponses_to_bu_bucket --base-image python313 --region europe-west9`
+### Trigger
+```
+gcloud pubsub topics create semaine-8h
+gcloud scheduler jobs create pubsub bu_stock-responses --schedule "0 8 * * 2-5"   --topic semaine-8h --location europe-west1 --message-body "{}"
+```
+Dans la console RUN, onglet déclencher/trigger , il faut associer la fonction au topic Pub/Sub.
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<mat-toolbar color="primary" class="navbar">
+  <!-- Hamburger Menu (Mobile Only) -->
+  <button mat-icon-button class="mobile-menu-trigger" [matMenuTriggerFor]="mobileNavMenu" aria-label="Ouvrir le menu de navigation">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <a routerLink="/menu" class="navbar-brand">VizIssuNi Restitution</a>
+  <span class="spacer"></span>
+
+  @if (userState$ | async; as state) {
+    <!-- User is Logged In (Either Anonymous or Registered) -->
+    @if (state.isLoggedIn) {
+      @if (state.isAnonymous) {
+        <span class="navbar-text guest-text mobile-hidden">Mode Anonyme</span>
+        <div class="desktop-only-flex">
+          <button mat-button (click)="navigateToLogin()">
+            <mat-icon>login</mat-icon> Se connecter
+          </button>
+          <button mat-button (click)="navigateToRegister()">
+            <mat-icon>person_add</mat-icon> S'inscrire
+          </button>
+        </div>
+        <!-- Guest Logout (Icon button, good for both desktop/mobile) -->
+        <button mat-icon-button (click)="logout()" matTooltip="Quitter la session invité">
+          <mat-icon>logout</mat-icon>
+        </button>
+      } @else {
+        <!-- REGISTERED USER -->
+        <button mat-button [matMenuTriggerFor]="userAccountMenu" class="user-account-button" aria-label="Menu du compte utilisateur">
+          <span class="user-email mobile-hidden">{{ state.userEmail }}</span>
+          <mat-icon>account_circle</mat-icon>
+          <mat-icon class="mobile-hidden menu-arrow-icon">arrow_drop_down</mat-icon>
+        </button>
+        <mat-menu #userAccountMenu="matMenu">
+          <button mat-menu-item routerLink="/profile">
+            <mat-icon>person</mat-icon>
+            <span>Profil</span>
+          </button>
+          <button mat-menu-item (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            <span>Se déconnecter</span>
+          </button>
+        </mat-menu>
+      }
+    } @else {
+      <!-- USER NOT LOGGED IN (or initial state before anonymous login) -->
+      <!-- Desktop: Login/Register Buttons -->
+      <div class="desktop-only-flex">
+        <button mat-button (click)="navigateToLogin()">
+          <mat-icon>login</mat-icon> Se connecter
+        </button>
+        <button mat-button (click)="navigateToRegister()">
+          <mat-icon>person_add</mat-icon> S'inscrire
+        </button>
+      </div>
+    }
+  } @else {
+    <!-- Optionnel: Squelette de chargement ou rien pendant que userState$ n'a pas émis -->
+    <div class="navbar-text">Chargement...</div>
+  }
+</mat-toolbar>
+
+<!-- Mobile Navigation Menu (triggered by hamburger) -->
+<mat-menu #mobileNavMenu="matMenu">
+  @if (userState$ | async; as state) {
+    <!-- Show Login/Register in mobile menu if user is anonymous OR not logged in at all -->
+    @if ((state.isLoggedIn && state.isAnonymous) || !state.isLoggedIn) {
+      <button mat-menu-item (click)="navigateToLogin()">
+        <mat-icon>login</mat-icon>
+        <span>Se connecter</span>
+      </button>
+      <button mat-menu-item (click)="navigateToRegister()">
+        <mat-icon>person_add</mat-icon>
+        <span>S'inscrire</span>
+      </button>
+    }
+    <!-- Lien Profil pour mobile si connecté avec email -->
+    @if (state.isLoggedIn && !state.isAnonymous) {
+      <button mat-menu-item routerLink="/profile">
+        <mat-icon>person</mat-icon>
+        <span>Profil</span>
+      </button>
+    }
+    <button mat-menu-item routerLink="/menu">
+        <mat-icon>dashboard</mat-icon>
+        <span>Menu des restitutions</span>
+    </button>
+  }
+</mat-menu>
+
+@if (logoutErrorMessage) {
+  <div class="logout-error-bar" role="alert">
+    {{ logoutErrorMessage }}
+  </div>
+}

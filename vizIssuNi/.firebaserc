@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "batiment-dirif"
+  },
+  "targets": {
+    "batiment-dirif": {
+      "hosting": {
+        "prod": [
+          "vizissuni"
+        ],
+        "dev": [
+          "vizissuni-dev"
+        ],
+        "old": [
+          "rapport-intervention-issue-niche"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
